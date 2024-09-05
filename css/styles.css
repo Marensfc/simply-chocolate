@@ -1,10 +1,10 @@
-/* =====Header===== */
-
 .container {
-  min-width: 320px;
-  max-width: 500px;
+  max-width: 375px;
   padding: 0 20px;
+  margin: 0 auto;
 }
+
+/* ====================Header==================== */
 
 .header-container {
   display: flex;
@@ -36,18 +36,16 @@
   width: 28px;
   height: 28px;
 }
+
 .header-nav {
   display: none;
 }
-/* .header-nav-list {
-} */
+
 .header-social-links-list {
   display: none;
 }
-/* .header-social-links-item {
-} */
 
-/* =====Hero===== */
+/* ====================Hero==================== */
 
 .hero {
   padding-bottom: 80px;
@@ -63,7 +61,6 @@
       rgba(17, 17, 17, 0.4)
     ),
     url("../assets/images/hero-bg-mob.jpg");
-  /* background-image: url("../assets/images/hero-bg-mob.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -79,7 +76,11 @@
 
 .hero-buttons-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.hero-button-link-wrapper {
+  margin-bottom: 32px;
 }
 
 .hero-buy-btn {
@@ -90,7 +91,9 @@
   background-color: #fd9222;
   padding: 12px 28px;
   margin-right: 14px;
+  transition: color 200ms ease, background-color 200ms ease;
 }
+
 .hero-link {
   display: inline-block;
   font-weight: 600;
@@ -99,7 +102,19 @@
   background-color: transparent;
   border: 1px solid #ffffff;
   border-radius: 100px;
+  transition: color 200ms ease, border 200ms ease;
 }
+
+.hero-buy-btn:hover {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.hero-link:hover {
+  color: #fd9222;
+  border: 1px solid #fd9222;
+}
+
 .hero-scroll-btn {
   font-weight: 500;
   font-size: 12px;
@@ -110,8 +125,9 @@
   display: flex;
   gap: 12px;
   align-items: center;
-  margin-top: 40px;
+  transition: color 200ms ease;
 }
+
 .arrow-icon-container {
   display: inline-flex;
   width: 28px;
@@ -120,4 +136,23 @@
   justify-content: center;
   background-color: #ffffff;
   border-radius: 50%;
+  transition: background-color 200ms ease;
+}
+
+.arrow-icon {
+  fill: #fd9222;
+  transition: fill 200ms ease;
+}
+
+.hero-scroll-btn:hover {
+  color: #fd9222;
+}
+
+.hero-scroll-btn:hover > .arrow-icon-container {
+  background-color: #fd9222;
+  fill: #ffffff;
+}
+
+.hero-scroll-btn:hover .arrow-icon {
+  fill: #ffffff;
 }
