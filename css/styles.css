@@ -1,0 +1,123 @@
+/* =====Header===== */
+
+.container {
+  min-width: 320px;
+  max-width: 500px;
+  padding: 0 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding: 20px 0 14px;
+}
+
+.header-logo-link {
+  color: #111111;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.header-logo-accent-word {
+  font-style: italic;
+}
+
+.header-mob-menu-btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+}
+.header-nav {
+  display: none;
+}
+/* .header-nav-list {
+} */
+.header-social-links-list {
+  display: none;
+}
+/* .header-social-links-item {
+} */
+
+/* =====Hero===== */
+
+.hero {
+  padding-bottom: 80px;
+}
+
+.hero-content-wrapper {
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 395px 20px 20px 20px;
+  background: linear-gradient(
+      to bottom,
+      rgba(17, 17, 17, 0.4),
+      rgba(17, 17, 17, 0.4)
+    ),
+    url("../assets/images/hero-bg-mob.jpg");
+  /* background-image: url("../assets/images/hero-bg-mob.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.hero-buttons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-buy-btn {
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  border-radius: 100px;
+  background-color: #fd9222;
+  padding: 12px 28px;
+  margin-right: 14px;
+}
+.hero-link {
+  display: inline-block;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 12px 28px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+}
+.hero-scroll-btn {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  color: #ffffff;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 40px;
+}
+.arrow-icon-container {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
