@@ -237,156 +237,231 @@
         </div>
       </section>
 
-      <section>
-        <div class="thumb">
-          <img
-            src="./assets/images/how-its-made-img.jpg"
-            alt="Liquid chocolate"
-          />
+      <section class="how-its-made">
+        <div class="container">
+          <h2 class="how-its-made-title">
+            How it's <span class="how-its-made-title-accent">made?</span>
+          </h2>
+          <div class="how-its-made-thumb">
+            <img
+              src="./assets/images/how-its-made-mob.jpg"
+              alt="Liquid chocolate"
+            />
+            <svg width="35" height="35" class="how-its-made-play-icon">
+              <use href="./assets/icons/icons.svg#play"></use>
+            </svg>
+          </div>
+          <div class="how-its-made-instructions-wrapper">
+            <h3 class="how-its-made-list-title">
+              Try our chocolates today and discover the perfect balance of
+              flavor
+            </h3>
+            <ol class="how-its-made-instruction-list">
+              <li class="instruction-item">
+                <p class="instruction-text">
+                  Heat the milk in a saucepan without bringing it to a boil. Add
+                  sugar and cocoa powder.
+                </p>
+              </li>
+              <li class="instruction-item">
+                <p class="instruction-text">
+                  At the same time, prepare a water bath. Melt the butter on it.
+                </p>
+              </li>
+              <li class="instruction-item">
+                <p class="instruction-text">
+                  "Mix" the milk mixture and already liquid butter. Mix
+                  thoroughly with a silicone spatula so that the mass becomes
+                  uniform and silky.
+                </p>
+              </li>
+              <li class="instruction-item">
+                <p class="instruction-text">
+                  Heat the mixture over low heat, letting it barely boil.
+                </p>
+              </li>
+              <li class="instruction-item">
+                <p class="instruction-text">
+                  Pour the chocolate into special containers (can be replaced
+                  with ice molds). Allow to cool and harden.
+                </p>
+              </li>
+            </ol>
+          </div>
         </div>
-        <h3>
-          Try our chocolates today and discover the perfect balance of flavor
-        </h3>
-        <ul>
-          <li>
-            <p>
-              Heat the milk in a saucepan without bringing it to a boil. Add
-              sugar and cocoa powder.
-            </p>
-          </li>
-          <li>
-            <p>
-              At the same time, prepare a water bath. Melt the butter on it.
-            </p>
-          </li>
-          <li>
-            <p>
-              "Mix" the milk mixture and already liquid butter. Mix thoroughly
-              with a silicone spatula so that the mass becomes uniform and
-              silky.
-            </p>
-          </li>
-          <li>
-            <p>Heat the mixture over low heat, letting it barely boil.</p>
-          </li>
-          <li>
-            <p>
-              Pour the chocolate into special containers (can be replaced with
-              ice molds). Allow to cool and harden.
-            </p>
-          </li>
-        </ul>
       </section>
 
-      <section>
-        <h2>Our products</h2>
-        <ul>
-          <li>
-            <img
-              src="./assets/images/products-orange.png"
-              alt="A dark chocolate bar with orange and its wrapper"
-            />
-            <h3>Orange</h3>
-            <p>Dark chocolate</p>
-            <p>45 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./assets/images/products-apple-cranberry.png"
-              alt="A milk chocolate bar with apple and cranberry and its wrapper"
-            />
-            <h3>Apple&Cranberry</h3>
-            <p>Milk chocolate</p>
-            <p>50 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./assets/images/products-lime-sea-salt.png"
-              alt="A dark chocolate bar with lime and sea salt and its wrapper"
-            />
-            <h3>lime&sea salt</h3>
-            <p>Dark chocolate</p>
-            <p>66 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./assets/images/products-pineapple.png"
-              alt="A dark chocolate bar with pineapple and its wrapper"
-            />
-            <h3>Pineapple</h3>
-            <p>Dark chocolate</p>
-            <p>54 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./assets/images/products-classic-milk.png"
-              alt="Classic milk chocolate bar and its wrapper"
-            />
-            <h3>Classic</h3>
-            <p>Milk chocolate</p>
-            <p>45 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./assets/images/products-honey.png"
-              alt="A milk chocolate bar with honey and its wrapper"
-            />
-            <h3>honey</h3>
-            <p>Milk chocolate</p>
-            <p>50 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./assets/images/products-roasted-fruits.png"
-              alt="A dark chocolate bar with roasted fruits and its wrapper"
-            />
-            <h3>Roasted fruits</h3>
-            <p>Dark chocolate</p>
-            <p>66 UAH</p>
-          </li>
-          <li>
-            <img
-              src="./assets/images/products-classic-white.png"
-              alt="Classic white chocolate bar and its wrapper"
-            />
-            <h3>Classic</h3>
-            <p>White chocolate</p>
-            <p>54 UAH</p>
-          </li>
-        </ul>
+      <section class="products">
+        <div class="container">
+          <h2 class="products-title">
+            Our <span class="products-title-accent">products</span>
+          </h2>
+          <ul class="products-list">
+            <li class="product-item">
+              <img
+                class="product-item-img"
+                src="./assets/images/products-orange.png"
+                alt="A dark chocolate bar with orange and its wrapper"
+              />
+              <h3 class="product-item-title">Orange</h3>
+              <p class="product-item-name">Dark chocolate</p>
+              <button type="button" class="product-item-price-btn">
+                45 UAH
+              </button>
+            </li>
+            <li class="product-item">
+              <img
+                class="product-item-img"
+                src="./assets/images/products-apple-cranberry.png"
+                alt="A milk chocolate bar with apple and cranberry and its wrapper"
+              />
+              <h3 class="product-item-title">Apple&Cranberry</h3>
+              <p class="product-item-name">Milk chocolate</p>
+              <button type="button" class="product-item-price-btn">
+                50 UAH
+              </button>
+            </li>
+            <li class="product-item">
+              <img
+                class="product-item-img"
+                src="./assets/images/products-lime-sea-salt.png"
+                alt="A dark chocolate bar with lime and sea salt and its wrapper"
+              />
+              <h3 class="product-item-title">lime&sea salt</h3>
+              <p class="product-item-name">Dark chocolate</p>
+              <button type="button" class="product-item-price-btn">
+                66 UAH
+              </button>
+            </li>
+            <li class="product-item">
+              <img
+                class="product-item-img"
+                src="./assets/images/products-pineapple.png"
+                alt="A dark chocolate bar with pineapple and its wrapper"
+              />
+              <h3 class="product-item-title">Pineapple</h3>
+              <p class="product-item-name">Dark chocolate</p>
+              <button type="button" class="product-item-price-btn">
+                54 UAH
+              </button>
+            </li>
+            <li class="product-item">
+              <img
+                class="product-item-img"
+                src="./assets/images/products-classic-milk.png"
+                alt="Classic milk chocolate bar and its wrapper"
+              />
+              <h3 class="product-item-title">Classic</h3>
+              <p class="product-item-name">Milk chocolate</p>
+              <button type="button" class="product-item-price-btn">
+                45 UAH
+              </button>
+            </li>
+            <li class="product-item">
+              <img
+                class="product-item-img"
+                src="./assets/images/products-honey.png"
+                alt="A milk chocolate bar with honey and its wrapper"
+              />
+              <h3 class="product-item-title">honey</h3>
+              <p class="product-item-name">Milk chocolate</p>
+              <button type="button" class="product-item-price-btn">
+                50 UAH
+              </button>
+            </li>
+            <li class="product-item">
+              <img
+                class="product-item-img"
+                src="./assets/images/products-roasted-fruits.png"
+                alt="A dark chocolate bar with roasted fruits and its wrapper"
+              />
+              <h3 class="product-item-title">Roasted fruits</h3>
+              <p class="product-item-name">Dark chocolate</p>
+              <button type="button" class="product-item-price-btn">
+                66 UAH
+              </button>
+            </li>
+            <li class="product-item">
+              <img
+                class="product-item-img"
+                src="./assets/images/products-classic-white.png"
+                alt="Classic white chocolate bar and its wrapper"
+              />
+              <h3 class="product-item-title">Classic</h3>
+              <p class="product-item-name">White chocolate</p>
+              <button type="button" class="product-item-price-btn">
+                54 UAH
+              </button>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section>
-        <h2>Top sellers</h2>
-        <ul>
-          <li>
-            <div>
-              <img
-                src="./assets/images/top-sellers-chocolate-with-nuts.webp"
-                alt="Chocolate pieces in the form of a slide and nuts"
-              />
-            </div>
-            <h3>Chocolate With Nuts</h3>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./assets/images/top-sellers-chocolate-with-fruits.webp"
-                alt="Chocolate pieces in the form of a slide with fruits"
-              />
-            </div>
-            <h3>Chocolate With Fruits</h3>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./assets/images/top-sellers-dark-chocolate.webp"
-                alt="Dark chocolate pieces in the form of a slide"
-              />
-            </div>
-            <h3>Dark Chocolate</h3>
-          </li>
-        </ul>
+      <section class="top-sellers">
+        <div class="container">
+          <h2 class="top-sellers-title">
+            <span class="top-sellers-title-accent">Top</span> sellers
+          </h2>
+          <ul class="top-sellers-list">
+            <li class="top-seller-item">
+              <div class="top-seller-item-thumb">
+                <img
+                  src="./assets/images/top-sellers-chocolate-with-nuts-mob.jpg"
+                  alt="Chocolate pieces in the form of a slide and nuts"
+                />
+                <div class="top-sellers-item-overlay">
+                  <p class="top-sellers-item-overlay-text">
+                    Chocolate with nuts is an incredible combination of two
+                    taste pleasures. When delicate and silky chocolate meets
+                    crunchy and tasty nuts, a real culinary pleasure arises.
+                  </p>
+                </div>
+              </div>
+              <div class="top-sellers-item-text-container">
+                <h3 class="top-seller-item-title">Chocolate With Nuts</h3>
+              </div>
+            </li>
+            <li class="top-seller-item">
+              <div class="top-seller-item-thumb">
+                <img
+                  src="./assets/images/top-sellers-chocolate-with-fruits.webp"
+                  alt="Chocolate pieces in the form of a slide with fruits"
+                />
+                <div class="top-sellers-item-overlay">
+                  <p class="top-sellers-item-overlay-text">
+                    Chocolate with fruit is an unbeatable combination of two of
+                    the tastiest things in the world. This dessert combines
+                    delicate and aromatic chocolate with fresh and juicy fruits,
+                    creating a true poetry of taste.
+                  </p>
+                </div>
+              </div>
+              <div class="top-sellers-item-text-container">
+                <h3 class="top-seller-item-title">Chocolate With Fruits</h3>
+              </div>
+            </li>
+            <li class="top-seller-item">
+              <div class="top-seller-item-thumb">
+                <img
+                  src="./assets/images/top-sellers-dark-chocolate.webp"
+                  alt="Dark chocolate pieces in the form of a slide"
+                />
+                <div class="top-sellers-item-overlay">
+                  <p class="top-sellers-item-overlay-text">
+                    Dark chocolate is a rich and indulgent treat that is beloved
+                    by many chocolate enthusiasts. It is made from cocoa beans,
+                    which are roasted, ground, and then processed to produce
+                    chocolate liquor. Dark chocolate contains a higher
+                    percentage of cocoa solids compared to milk chocolate.
+                  </p>
+                </div>
+              </div>
+              <div class="top-sellers-item-text-container">
+                <h3 class="top-seller-item-title">Dark Chocolate</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section>
